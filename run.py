@@ -15,15 +15,15 @@ LAST_POSTED_FILE = "last_posted.txt"
 
 # Mapping kategori ke ID WordPress
 CATEGORY_MAP = {
-    "Prediksi Togel Sidney": 4,
-    "Prediksi Togel Hongkong": 2,
-    "Prediksi Togel Singapore": 5,
-    "Prediksi Togel Kingkong": 3,
-    "Bocoran Togel SDY" : 8,
-    "Bocoran Data HK": 7,
-    "Bocoran kingkongpools" : 9,
-    "Bocoran SGP Hari Ini" : 6,
-    "Prediksi HK Akurat" : 10,
+    "Prediksi Togel Sidney": 10,
+    "Prediksi Togel Hongkong": 7,
+    "Prediksi Togel Singapore": 9,
+    "Prediksi Togel Kingkong": 8,
+    "Bocoran Togel SDY" : 5,
+    "Bocoran Data HK": 2,
+    "Bocoran kingkongpools" : 3,
+    "Bocoran SGP Hari Ini" : 4,
+    "Prediksi HK Akurat" : 6,
     "Uncategorized": 1
 }
 
@@ -57,13 +57,13 @@ def get_categories_from_title(judul):
 def get_image_url_from_title(judul):
     judul = judul.lower()
     if "sidney" in judul or "sydney" in judul:
-        return "https://gbg-coc.org/wp-content/uploads/sidney.jpg"
+        return "https://togel.gbg-coc.org/wp-content/uploads/sidney.jpg"
     elif "hongkong" in judul or "hk" in judul:
-        return "https://gbg-coc.org/wp-content/uploads/hongkong.jpg"
+        return "https://togel.gbg-coc.org/wp-content/uploads/hongkong.jpg"
     elif "singapore" in judul or "sgp" in judul:
-        return "https://gbg-coc.org/wp-content/uploads/singapore.jpg"
+        return "https://togel.gbg-coc.org/wp-content/uploads/singapore.jpg"
     elif "kingkong" in judul:
-        return "https://gbg-coc.org/wp-content/uploads/kingkong.jpg"
+        return "https://togel.gbg-coc.org/wp-content/uploads/kingkong.jpg"
     else:
         return None
 
