@@ -2,7 +2,7 @@ name: Auto Run Togel Poster
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # jalan setiap 6 jam
+    - cron: '*/5 * * * *'  # jalan setiap 6 jam
   workflow_dispatch:       # bisa dijalankan manual juga
 
 jobs:
