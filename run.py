@@ -153,11 +153,11 @@ def ambil_dan_edit_konten(url):
     {angka_konten}
     <br>
     {paragraf_html}
-    <p style="text-align:center; font-size:14px; color:gray;">Prediksi disediakan oleh <strong>388hero</strong></p>
+    <p style="text-align:center; font-size:14px; color:gray;">Prediksi disediakan oleh <strong>Bandar Togel</strong></p>
     </div>
     """
 
-    konten_html = konten_html.replace("Surgatogel", "388hero ").replace("SurgaTogel", "388hero ").replace("SURGATOGEL", "388HERO ")
+    konten_html = konten_html.replace("Surgatogel", "Bandar Togel").replace("SurgaTogel", "Bandar Togel").replace("SURGATOGEL", "Bandar Togel")
     return judul, konten_html
 
 def post_ke_wordpress(judul, konten_html):
